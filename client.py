@@ -11,7 +11,7 @@ if os.name != "posix":
     print("After installation, type wsl python3 client.py to start chat app.")
     print("--Installation for android--")
     print("Go to google play store and find app called Termux, then open it and type this:")
-    print("git clone https://github.com/Tokoyami/chatapp_client.git && mv ./chatapp_client-master/start.sh . && pkg install python")
+    print("git clone https://github.com/Tokoyami/chatapp_client.git && mv ./chatapp_client/start.sh . && pkg install python")
     print("After command completes, to start chat app, type")
     print("./start.sh")
     print("-"*50)
